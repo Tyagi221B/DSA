@@ -1,4 +1,10 @@
-for(int i = 0; i<n+3; i++){
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n= 4;
+    for(int i = 0; i<n+3; i++){
         for(int j = 0 ; j<n+3;j++){
             if(i == 0 || j == 0 || i == n+2 || j == n+2 ){
                 cout<<n<<" ";
@@ -14,3 +20,5 @@ for(int i = 0; i<n+3; i++){
         }
         cout<<endl;
     }
+    return 0;
+}
