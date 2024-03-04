@@ -1,5 +1,4 @@
 #include <iostream>
-#include <bits/stdc++.h>
 using namespace std;
 
 int sumOfAllDivisors(int n){
@@ -21,6 +20,7 @@ int sum_of_Divisior(int n ){
     }
     return sum;
 }
+
 int sum_of_Divisior2(int n ){
     int sum = 0;
     for(int i=1 ; i<=n;i++){
