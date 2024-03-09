@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/asmit/Developer/DSA/0A_ReviseConcepts/basic_Maths_Questions/countDIgits'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z11countDigitsi, symObjAddr: 0x0, symBinAddr: 0x100003EE4, symSize: 0x38 }
+  - { offsetInCU: 0x2D05, offset: 0x2D05, size: 0x8, addend: 0x0, symName: __Z11countDigitsi, symObjAddr: 0x0, symBinAddr: 0x100003EE4, symSize: 0x38 }
+  - { offsetInCU: 0x2D3F, offset: 0x2D3F, size: 0x8, addend: 0x0, symName: __Z5log10B7v160006IiENSt3__19enable_ifIXsr3std11is_integralIT_EE5valueEdE4typeES2_, symObjAddr: 0x38, symBinAddr: 0x100003F1C, symSize: 0x30 }
+  - { offsetInCU: 0x2D76, offset: 0x2D76, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x68, symBinAddr: 0x100003F4C, symSize: 0x44 }
+...
